@@ -1,0 +1,22 @@
+{
+  "client_name": "Roomy AT Protocol Client",
+  "client_uri": "https://commonly-proper-amoeba.ngrok-free.app",
+  "logo_uri": "https://commonly-proper-amoeba.ngrok-free.app/logo.png",
+  "tos_uri": "https://commonly-proper-amoeba.ngrok-free.app/terms",
+  "policy_uri": "https://commonly-proper-amoeba.ngrok-free.app/privacy",
+  "redirect_uris": [
+    "https://commonly-proper-amoeba.ngrok-free.app/oauth/callback"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "application_type": "web",
+  "dpop_bound_access_tokens": true,
+  "scope": "atproto",
+  "jwks_uri": "https://commonly-proper-amoeba.ngrok-free.app/.well-known/jwks.json"
+}

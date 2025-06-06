@@ -1,0 +1,16 @@
+{
+  "client_id": "https://commonly-proper-amoeba.ngrok-free.app/oauth/downstream/client-metadata.json",
+  "client_name": "Delilah Local App",
+  "client_uri": "https://commonly-proper-amoeba.ngrok-free.app",
+  "logo_uri": "https://commonly-proper-amoeba.ngrok-free.app/logo.png",
+  "tos_uri": "https://commonly-proper-amoeba.ngrok-free.app/terms",
+  "policy_uri": "https://commonly-proper-amoeba.ngrok-free.app/policy",
+  "redirect_uris": ["https://commonly-proper-amoeba.ngrok-free.app/oauth/callback"],
+  "scope": "atproto transition:generic transition:chat.bsky",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "application_type": "web",
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true,
+  "contacts": ["njovujsh@gmail.com"]
+}
