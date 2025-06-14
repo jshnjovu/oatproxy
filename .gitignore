@@ -1,2 +1,7 @@
+client-metadata.json
 /oatproxy
 *.sqlite3
+.continue/
+notes/
+meta_version/
+cmd/rommy_snippet
