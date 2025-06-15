@@ -1,18 +1,18 @@
 {
-  "client_id": "https://roomy.chat/oauth-client-native.json",
+  "client_id": "https://commonly-proper-amoeba.ngrok-free.app/oauth/downstream/client-metadata.json",
   "client_name": "Roomy",
-  "client_uri": "https://roomy.chat",
-  "policy_uri": "https://roomy.chat",
-  "tos_uri": "https://roomy.chat",
-  "logo_uri": "https://roomy.chat/favicon.png",
+  "client_uri": "https://commonly-proper-amoeba.ngrok-free.app",
+  "logo_uri": "https://commonly-proper-amoeba.ngrok-free.app/logo.png",
+  "tos_uri": "https://commonly-proper-amoeba.ngrok-free.app/terms",
+  "policy_uri": "https://commonly-proper-amoeba.ngrok-free.app/policy",
   "redirect_uris": [
-     "chat.roomy:/oauth/callback",
-     "https://roomy.chat/oauth/callback"
+    "https://commonly-proper-amoeba.ngrok-free.app/oauth/callback"
   ],
   "scope": "atproto transition:generic transition:chat.bsky",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
-  "token_endpoint_auth_method": "none",
   "application_type": "web",
-  "dpop_bound_access_tokens": true
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true,
+  "contacts": ["njovujsh@gmail.com"]
 }
